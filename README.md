@@ -36,4 +36,16 @@ nice formatting
   go, smashing performance
   gin-gonic/gin
 
+## Kubernetes
+- pods are the smallest unit in kubernetes
+- 
+```
+$ minikube start 
+$ minikube dashbaord // to see list of deployments
+```
 
+Troubleshooting
+```
+if you get access errors in minikube, may need to
+downgrade minikube to v0.17.1.
+ ```
