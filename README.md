@@ -48,17 +48,17 @@ Troubleshooting
 ```
 if you get access errors in minikube, may need to
 downgrade minikube to v0.17.1.
- ```
+```
 
- ## Pros and Cons on Sync and Async communication
- communication partner A < -- channel -- > partner B
- types --> unicast (1 to 1)
- multicast
- broadcast
+## Pros and Cons on Sync and Async communication
+communication partner A < -- channel -- > partner B
+types --> unicast (1 to 1)
+multicast
+broadcast
 
- also
- request/response
- push (server pushes messages to client)
- peer to peer
+also
+request/response
+push (server pushes messages to client)
+peer to peer
 
  
